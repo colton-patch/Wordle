@@ -1,0 +1,19 @@
+WordleWord: This class represents a single word that the user is trying to guess in the game. Its main responsibilities include
+generating a random word from a predefined list, storing the word and its letters, and checking if a guessed letter is in the word.
+
+WordleBoard: This class represents the game board that displays the word and the user's guesses. Its main responsibilities include
+displaying the word for unguessed letters, updating the display with each correctly guessed letter, and
+keeping track of the number of remaining guesses.
+
+WordleGuess: This class represents a single guess made by the user. Its main responsibilities include storing the guessed letter
+and checking if it is correct or not.
+
+WordleGame: This class represents the entire Wordle game. Its main responsibilities include managing the game state
+such as if the game is still going or has ended, keeping track of the current word and the user's guesses,
+and providing methods for starting a new game and ending the current game.
+
+WordleGUI: This class represents the GUI for the game. Its main responsibilities include displaying the game board
+and allowing the user to make guesses through input fields or buttons. It also handles user interactions such
+as button clicks and keyboard inputs.
+
+GuessArea: The class is a GUI node responsible for accepting and displaying one guess. WordleGUI will be made up of 6 of these.
