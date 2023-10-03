@@ -1,2 +1,2 @@
-# team-project
-Add your name to this file.
+Wordle
+A recreation of the game Wordle made in Java using EclipseIDE
